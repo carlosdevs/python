@@ -1,0 +1,8 @@
+'''
+Reverses a string.
+Examples:
+This is a line --> line a is This
+'''
+
+def reverse(s):
+  return ' '.join((s.split())[::-1])
